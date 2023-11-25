@@ -4,12 +4,14 @@ body {
     font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
     text-align: center;
     background: fixed linear-gradient(#CED8DE, #AAC7DA, #5D6A83, #0d1e45, #000000 );
+    padding: 0px;
+    margin: 0px;
 }
 
 .tudo {
     margin-top: 15%;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 290px;
     max-height: 350px;
     padding: 20px;
@@ -22,8 +24,12 @@ body {
 .titulo > h4 {
     font-family: 'Oswald', sans-serif;
     color: rgb(93, 111, 163);
-    font-size: 23px;
+    font-size: 30px;
     margin-bottom: 20px;
+}
+.titulo{
+    max-width: 290px;
+    margin-top: -29px;
 }
 
 .btn {
@@ -43,11 +49,15 @@ body {
     background-color: rgb(70, 148, 187);
 }
 
-a {
+.link1{
+    text-decoration: none;
+    color: rgb(5, 47, 164);
+    margin-right: 25px;
+}
+.link2{
     text-decoration: none;
     color: rgb(5, 47, 164);
 }
-
 label {
     margin-left: -130px;
     max-width: 200px;
