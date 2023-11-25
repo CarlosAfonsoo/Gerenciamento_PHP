@@ -1,22 +1,97 @@
-body{
-    padding: 0px;
-    height: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
-    text-align: center;
-}
-.tudo{
-    margin-top: 15%;
-}
-.login{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
+body {
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    text-align: center;
+    background: fixed linear-gradient(#CED8DE, #AAC7DA, #5D6A83, #0d1e45, #000000 );
 }
-a{
+
+.tudo {
+    margin-top: 15%;
+    background-color: white;
+    border: 1px solid black;
+    max-width: 290px;
+    max-height: 350px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo > h4 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(93, 111, 163);
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    background-color: rgb(119, 179, 214);
+    color: white;
+    height: 35px;
+    width: 180px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(70, 148, 187);
+}
+
+a {
     text-decoration: none;
-    color: cadetblue;
+    color: rgb(5, 47, 164);
 }
-label{
-    float: left;
-    margin-left: 43vw;
-    
+
+label {
+    margin-left: -130px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 842px) {
+    label {
+        margin-left: -130px;
+        max-width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 802px) {
+    label {
+        margin-left: -130px;
+        max-width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 638px) {
+    label {
+        margin-left: -130px;
+        max-width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 522px) {
+    label {
+        margin-left: -130px;
+        max-width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
 }
