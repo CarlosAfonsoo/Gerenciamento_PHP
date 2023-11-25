@@ -1,4 +1,22 @@
 body{
     padding: 0px;
     height: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+.tudo{
+    margin-top: 15%;
+}
+.login{
+
+}
+a{
+    text-decoration: none;
+    color: cadetblue;
+}
+label{
+    float: left;
+    margin-left: 43vw;
+    
 }
