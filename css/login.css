@@ -11,7 +11,7 @@ body {
 .tudo {
     margin-top: 15%;
     background-color: white;
-    /* border: 1px solid black; */
+    border-radius: 10px ;
     max-width: 290px;
     max-height: 350px;
     padding: 20px;
