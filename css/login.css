@@ -25,9 +25,10 @@ body {
 .titulo > h4 {
     font-family: 'Oswald', sans-serif;
     color: rgb(93, 111, 163);
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 17px;
 }
+
 .titulo{
     max-width: 290px;
     margin-top: -29px;
