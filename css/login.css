@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Pahawh+Hmong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 body {
-    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
     text-align: center;
     background: fixed linear-gradient(#CED8DE, #AAC7DA, #5D6A83, #0d1e45, #000000 );
     padding: 0px;
@@ -25,7 +24,7 @@ body {
 }
 
 .titulo > h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
     color: rgb(93, 111, 163);
     font-size: 30px;
     margin-bottom: 20px;
@@ -36,8 +35,8 @@ body {
 }
 
 .btn {
-    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
-    background-color: rgb(119, 179, 214);
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    background-color: rgb(86, 100, 173);
     color: white;
     height: 35px;
     width: 180px;
@@ -49,7 +48,7 @@ body {
 }
 
 .btn:hover {
-    background-color: rgb(70, 148, 187);
+    background-color: rgb(66, 76, 133);
 }
 
 .link1{
@@ -71,6 +70,7 @@ label {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 input {
     padding: 7px ;
@@ -78,6 +78,7 @@ input {
     border: none;
     border-bottom: 1px solid rgb(45, 45, 59);
     outline-style: none;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .confir{
     margin-left: -50px;
