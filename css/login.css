@@ -65,7 +65,7 @@ body {
     font-size: 14px;
 }
 label {
-    margin-left: -130px;
+    margin-left: -120px;
     max-width: 200px;
     overflow: hidden;
     white-space: nowrap;
@@ -81,63 +81,63 @@ input {
     font-family: 'Noto Sans JP', sans-serif;
 }
 .confir{
-    margin-left: -50px;
+    margin-left: -40px;
 }
 
 @media screen and (max-width: 842px) {
     label {
-        margin-left: -130px;
+        margin-left: -120px;
         max-width: 200px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
     .confir{
-        margin-left: -50px;
+        margin-left: -40px;
     }
 }
 
 @media screen and (max-width: 802px) {
     label {
-        margin-left: -130px;
+        margin-left: -120px;
         max-width: 200px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
     .confir{
-        margin-left: -50px;
+        margin-left: -40px;
     }
 }
 
 @media screen and (max-width: 638px) {
     label {
-        margin-left: -130px;
+        margin-left: -120px;
         max-width: 200px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
     .confir{
-        margin-left: -50px;
+        margin-left: -40px;
     }
 }
 
 @media screen and (max-width: 522px) {
     label {
-        margin-left: -130px;
+        margin-left: -120px;
         max-width: 200px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
     .confir{
-        margin-left: -50px;
+        margin-left: -40px;
     }
 }
 @media screen and (max-width: 280px) {
     label {
-        margin-left: -130px;
+        margin-left: -120px;
         max-width: 200px;
         overflow: hidden;
         white-space: nowrap;
