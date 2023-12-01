@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(190, 190, 186, 0.349);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(70, 69, 69);
+    color: rgb(241, 234, 234);
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(105, 105, 105);
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(70, 69, 69);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
