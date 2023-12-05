@@ -4,13 +4,18 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:  rgb(238, 240, 237);
 }
 
 form{
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
 }
-
+.titulo{
+    font-size: 20px;
+}
 label{
     /* display: block; */
     margin-right: 162px;
@@ -21,6 +26,7 @@ label{
 .id_lbl{
     margin-left: 100px;
 }
+
 .nome_cli{
     margin-left: 35px;
 }
@@ -32,6 +38,7 @@ label{
 .desc{
     margin-left: 55px;
 }
+
 .values{
     margin-left: 15px;
 }
@@ -43,13 +50,18 @@ input, textarea{
     border-radius: 13px;
 }
 
+input:focus{
+    font-size: 14px;
+}
+
 .id{
+    height: 25px;
     width: 80px;
     margin-right: 110px;
+    text-align: center;
 }
 
 .txt_longo{
-    
     height: 130px;
 }
 
@@ -60,16 +72,36 @@ input, textarea{
 .btn{
     width: 180px;
     height: 30px;
-    background-color: black;
+    background-color: rgb(125, 123, 123);
     color: aliceblue;
     border: 1px solid white;
     border-radius: 50px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 30px ;
 }
 
-@media screen and ( min-width :989px ){
+@media screen and ( max-width :989px ){
+    .id_lbl{
+    margin-left: -5px;
+}
+
+.nome_cli{
+    margin-left: 30px;
+}
+
+.nome_profi{
+    margin-left: 60px;
+}
+
+.desc{
+    margin-left: 55px;
+}
+.values{
+    margin-left: 10px;
+}
+}
+
+@media screen and ( min-width :988px ){
     .id_lbl{
     margin-left: -5px;
 }
