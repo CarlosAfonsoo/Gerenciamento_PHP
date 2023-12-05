@@ -49,3 +49,28 @@ input{
     margin-left: 50px;
     height: 130px;
 }
+
+.foms{
+    background-color: antiquewhite;
+}
+
+@media screen and ( min-width :989px ){
+    .id_lbl{
+    margin-left: -10px;
+}
+
+.nome_cli{
+    margin-left: 23px;
+}
+
+.nome_profi{
+    margin-left: 60px;
+}
+
+.desc{
+    margin-left: 55px;
+}
+.values{
+    margin-left: 7px;
+}
+}
