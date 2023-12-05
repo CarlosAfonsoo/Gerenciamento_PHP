@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/corpo.css">
+    <link rel="stylesheet" href="./css/cad_servico.css">
+    <title>Gerenciamento</title>
+</head>
+<body>
+    <!-- site criado dia 04/12/23 -->
+    <header>
+        <h1>Cadastro de Serviço</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./servico.html">Serviços</a></li>
+            <li><a href="./realatorio.html">Relatórios</a></li>
+            <li><a href="./prof.html">Profissionais</a></li>
+            <li><a href="./info.html">Contato</a></li>
+        </ul>
+    </nav>
+    <section class="conteudo">
+        <h4>Informe os campos a baixo</h4>
+        <br>
+        <form action="arquivo php" method="post" name="formulario" >
+            <label for="id" class="id_lbl">ID</label>
+            <br>
+            <input type="number" class="id" placeholder="Digite o ID de serviço. ">
+            <br> <br> 
+            <label for="cli" class="nome_cli">Cliente</label>
+            <br>
+            <input type="text" placeholder="Digite o Nome do Cliente">
+            <br> <br> 
+            <label for="pofis" class="nome_profi">Profissional</label>
+            <br>
+            <input type="text" placeholder="Digite o Nome do Profissional">
+            <br> <br> 
+            <label for="value" class="values">Valor</label>
+            <br>
+            <input type="text" placeholder="Coloue os Lucros da Empresa">
+            <br> <br>
+            <label for="desc" class="desc">Descrição</label>
+            <br>
+            <textarea class="txt_longo" name="txt_longo" id="txt_longo" cols="30" rows="25" placeholder="Cite as Descrições Técnicas do Serviço a ser Realizado"></textarea>
+            <br> <br> 
+            
+            <input type="submit" value="Enviar">
+            <br>
+            <br>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Sistema de Gerenciamento</p>
+    </footer>
+</body>
+</html>
