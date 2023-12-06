@@ -1,0 +1,54 @@
+.consulta{
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 270px;
+}
+.lbl , .lbl2{
+    margin-right: 150px;
+    font-weight: bold;
+}
+.lbl{
+    margin-left: -15px;
+}
+
+.lbl2{
+    margin-left: 55px;
+}
+
+.txt{
+    border: 1px solid rgb(186, 186, 178);
+    width: 190px;
+    height: 30px;
+    border-radius: 13px;
+}
+.txt:focus{
+    font-size: 14px;
+}
+
+.btn{
+    width: 190px;
+    height: 30px;
+    background-color: rgb(125, 123, 123);
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(93, 89, 89);
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: auto;
+    padding: 23px;
+}
