@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/corpo.css">
+    <link rel="stylesheet" href="./css/consulta.css">
     <title>Gerenciamento</title>
 </head>
 <body>
     <!-- site criado dia 04/12/23 -->
     <header>
-        <h1>Consulta de Funcionário</h1>
+        <h1>Consulta de Profissionais</h1>
     </header>
     <nav>
         <ul>
@@ -21,10 +22,21 @@
         </ul>
     </nav>
     <section class="conteudo">
-        <!-- colocar o nome da pessoa -->
-        <h4>Boas vindas ao Sistema </h4> 
-        <p>colocar os graficos na Home Page e algumas informações do serviço</p>
-        <!-- Pensar em o que colocar de home Page -->
+        <br> <br>
+        <div class="consulta">
+            <form action="PHP" method="post" name="Consut">
+                <p class="font">Insira o ID do Serviço para o acompanhar.</p>
+                <label for="name" class="lbl">ID</label>
+                <br>
+                <input type="number" class="txt" id placeholder="Insira a ID de Serviço" name="id" id="indentificador">
+                <br> <br>
+                <label for="name" class="lbl2">Profissional</label>
+                <br>
+                <input type="text" class="txt" placeholder="Nome do Profissional">
+                <br> <br>
+                <input type="submit" class="btn" value="Enviar">
+            </form>
+        </div>
     </section>
     <footer>
         <p>&copy; 2023 Sistema de Gerenciamento</p>
