@@ -78,6 +78,11 @@ input:focus{
     border-radius: 50px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: rgb(105, 103, 103);
 }
 
 @media screen and ( max-width :989px ){
