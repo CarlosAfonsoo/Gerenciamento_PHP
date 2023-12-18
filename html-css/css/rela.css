@@ -27,7 +27,7 @@ h4{
     font-size: 19px;
 }
 
-p{
+.container p{
     margin-left: 16px;
     font-size: 20px;
     font-weight: bold;
@@ -37,3 +37,4 @@ img:hover{
     height: 160px;
     width: 160px;
 }
+
