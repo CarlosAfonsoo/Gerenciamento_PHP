@@ -9,7 +9,8 @@
 }
 
 form{
-    padding-top: 60px;
+    padding-top: 20px;
+    margin-bottom: 15px;
 }
 
 .lbl , .lbl2{
@@ -58,7 +59,7 @@ form{
     font-weight: bold;
 }
 
-footer{
-    margin-top: auto;
-    padding: 23px;
+.rodape{
+    position: absolute;
+    bottom: 0;
 }

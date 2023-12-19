@@ -8,14 +8,17 @@ body{
 }
 
 form{
+    
     max-width: 450px;
-    margin: 0 auto;
+    margin: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
 }
+
 .titulo{
     font-size: 20px;
 }
+
 label{
     /* display: block; */
     margin-right: 162px;

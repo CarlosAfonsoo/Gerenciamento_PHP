@@ -1,0 +1,44 @@
+.escolha img{
+    height: 140px;
+    width: 140px;
+}
+
+.escolha{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cadastro{
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.escolha p{
+    margin-bottom: 45px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.cadastro , .consuta{
+
+    margin: auto;
+    padding: 20px;
+    height: 100%;}
+
+.escolha img:hover{
+    transform: scale(1.3);
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media  screen and (max-width:800px){
+    
+
+}
+

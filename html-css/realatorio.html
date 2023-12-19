@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/corpo.css">
-    <link rel="stylesheet" href="./css/rela.css">
+    <link rel="stylesheet" href="./css/corpo_itens.css">
     <title>Gerenciamento</title>
 </head>
 <body>
-    <!-- site criado dia 03/11/23 -->
-    <header>
+    <!-- site criado dia 24/11/23 -->
+    <header class="cabecario">
         <div class="container">
-            <h1>Relatórios</h1>
+            <h1>Relatório</h1>
         </div>
     </header>
-    <nav>
+    <nav class="menu">
         <div class="container">
             <ul>
                 <li><a href="./home.html">Home</a></li>
@@ -26,28 +26,25 @@
         </div>
     </nav>
     <section class="conteudo">
+        <h4>Deseja Emitir o Relatório ou Consultar um?</h4>
         <div class="container">
-            <h4>Você gostaria Consutar um Relatório ou Emitir um?</h4>
-            <div class="rela">
-    
-                <p>Emitir um Relatório</p>
-                <br>
-                <a href="./cad_relatorio.html">
-                    <img src="../Img/Emissão-Relatório2.png" alt="Emissão de Relatório">
-                </a>
-                <br>
-            </div>
-            <div class="rela">
-                <p>Consultar Relatório</p>
-                <br>
-                <a href="./con_relatorio.html">
-                    <img src="../Img/relatorio.png" alt="Relatório de Serviço Geral">
-                </a>
+            <div class="escolha">
+                <div class="cadastro">
+                    <p>Cadastro de Relatório</p>
+                    <a href="./cad_relatorio.html">
+                        <img src="/Img/Emissão-Relatório2.png" alt="Cadastro">
+                    </a>
+                </div>
+                <div class="consuta">
+                    <p>Consulta de Relatório</p>
+                    <a href="./con_relatorio.html">
+                        <img src="/Img/relatorio.png" alt="Consulta">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-    <div style="margin-top:70px;"></div>
-    <footer>
+    <footer class="rodape">
         <p>&copy; 2023 Sistema de Gerenciamento</p>
     </footer>
 </body>
