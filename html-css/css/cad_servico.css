@@ -88,6 +88,11 @@ input:focus{
     background-color: rgb(105, 103, 103);
 }
 
+.rodape{
+    position: relative;
+    bottom: 0;
+}
+
 @media screen and ( max-width :989px ){
     .id_lbl{
     margin-left: -5px;
