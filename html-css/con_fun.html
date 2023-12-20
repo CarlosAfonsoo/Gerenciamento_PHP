@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/corpo.css">
     <link rel="stylesheet" href="./css/consulta.css">
+    <!-- <link rel="stylesheet" href="./css/consulta.css"> -->
     <title>Gerenciamento</title>
 </head>
 <body>
     <!-- site criado dia 04/12/23 -->
     <header class="cabecario">
         <div class="container">
-            <h1>Consulta de Funcionário</h1>
+            <h1>Consulta de Funcionários</h1>
         </div>
     </header>
     <nav class="menu">
@@ -27,18 +28,23 @@
     </nav>
     <section class="conteudo">
         <div class="container">
-            <form action="PHP" method="post" name="Consut">
-                <p class="font">Insira o ID do Serviço para o acompanhar.</p>
-                <label for="name" class="lbl">ID</label>
-                <br>
-                <input type="number" class="txt" id placeholder="Insira a ID de Serviço" name="id" id="indentificador">
-                <br> <br>
-                <label for="name" class="lbl2">Profissional</label>
-                <br>
-                <input type="text" class="txt" placeholder="Nome do Profissional">
-                <br> <br>
-                <input type="submit" class="btn" value="Enviar">
-            </form>
+            <div class="forms">
+                <form action="PHP" method="post" name="Consut" class="formulario">
+                    <h4 class="font">Insira o Nome do Cliente e a ID de Serviço para o acompanhar.</h4>
+                    <div class="id">
+                        <label for="name" class="lbl">ID</label>
+                        <input type="number" class="txt" id placeholder="Insira a ID de Serviço" name="id" id="indentificador">
+                    </div>
+                    <div class="nome">
+                        <label for="name" class="lbl2">Cliente</label>
+        
+                        <input type="text" class="txt" placeholder="Nome do Cliente">
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" class="btn" value="Enviar">
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <footer class="rodape">
