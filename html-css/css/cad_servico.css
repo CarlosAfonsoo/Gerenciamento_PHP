@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
     margin: 0;
@@ -48,18 +48,16 @@ label{
 
 input, textarea{
     border: 1px solid rgb(186, 186, 178);
-    width: 190px;
+    width: 200px;
     height: 30px;
     border-radius: 13px;
-}
-
-input:focus{
-    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
 }
 
 .id{
     height: 25px;
-    width: 80px;
+    width: 85px;
     margin-right: 110px;
     text-align: center;
 }
@@ -82,10 +80,15 @@ input:focus{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     cursor:pointer;
+    margin-bottom: 15px;
 }
 
 .btn:hover{
     background-color: rgb(105, 103, 103);
+}
+
+.btn:active{
+    background-color: rgb(70, 68, 68);
 }
 
 .rodape{
