@@ -10,7 +10,7 @@ body {
 
 .tudo {
     /* sempre centalizar uma div quando ela estiver no meio da tela */
-    margin: 0 auto;
+    margin: auto;
     margin-top: 10%;
     background-color: white;
     border-radius: 10px ;
@@ -43,9 +43,7 @@ body {
     font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+    cursor: pointer;}
 
 .btn:hover {
     background-color: rgb(66, 76, 133);

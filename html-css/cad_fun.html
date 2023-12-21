@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/corpo.css">
-    <link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="./css/cad_fun.css">
     <title>Gerenciamento</title>
 </head>
 <body>
@@ -30,24 +30,34 @@
             <div class="forms">
                 <h4 class="titulo">Informe os campos a baixo</h4>
                 <form action="arquivo php" method="post" name="formulario" class="form2">
-                    <div class="nomeCli">
-                        <label for="cli" class="nome_cli">Cliente</label>
-                        <input type="text" placeholder="Digite o Nome do Cliente">
+                    <div class="nome">
+                        <label for="name">Nome</label>
+                        <input type="text"  placeholder="Coloque o Nome do Funcionário">
                     </div>
-                    <div class="nomeProf">
-                        <label for="pofis" class="nome_profi">Profissional</label>
-                        <input type="text" placeholder="Digite o Nome do Profissional">
+                    <div class="cargo">
+                        <label for="text" class="cargo"> Cargo</label>
+                        <select class="escolha">
+                            <option value="Estagiário">
+                                Estagiário
+                            </option>   
+                            <option value="Estagiário">
+                                Estagiário
+                            </option>   
+                            <option value="Estagiário">
+                                Estagiário
+                            </option>   
+                        </select>
                     </div>
-                    <div class="valor">
-                        <label for="value" class="values">Valor</label>
-                        <input type="text" placeholder="Lucros do Serviço em R$">
+                    <div class="cpf">
+                        <label for="text"> CPF</label>
+                        <input type="text" placeholder="Coloque seu CPF">
                     </div>
-                    <div class="decri">
-                        <label for="desc" class="desc">Descrição</label>
-                        <textarea class="txt_longo" name="txt_longo" id="txt_longo" cols="30" rows="25" placeholder="Cite as Descrições Técnicas do Serviço a ser Realizado"></textarea>
+                    <div class="telefone">
+                        <label for="tel">Telefone</label>
+                        <input type="text" placeholder="Coloque o Numero de Telefone">
                     </div>
                     <div class="enviar">
-                        <input type="submit" value="Cadastrar" class="btn">
+                        <input type="submit" value="Cadastrar">
                     </div>
                 </form>
             </div>    

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.forms{
+    border: 1px solid black;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.forms label{
+    display: block;
+    position: relative;
+    right: 55px;
+    margin-top: 6px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.forms input[type="text"]{
+    border: 1px solid rgb(186, 186, 178);
+    width: 100%;
+    height: 30px;
+    border-radius: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.nome label{
+    position: relative;
+    right: 170px;
+}
+
+.cargo label{
+    position: relative;
+    right: 175px;
+}
+
+.cargo select{
+    position: relative;
+    right: 160px;
+}
+
+.cpf label{
+    position: relative;
+    right: 180px;
+}
+
+.enviar input[type="submit"]{
+    margin-top: 20px;
+    width: 57%;
+    height: 30px;
+    background-color: rgb(81, 121, 207);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor:pointer;
+    margin-bottom: 15px;
+}
+
+
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+}
+@media screen and (max-width:600px){
+    .rodape{
+        position: absolute;
+        bottom: 0;
+    }
+}
