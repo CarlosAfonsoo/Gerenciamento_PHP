@@ -81,4 +81,8 @@ header h1{
         position: static;
         bottom: 0;
     }
+
+    .menu li{
+        margin-right: 15px;
+    }
 }
