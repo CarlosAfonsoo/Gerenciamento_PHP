@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26/01/2024 às 01:21
+-- Tempo de geração: 25/01/2024 às 22:59
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -32,13 +32,6 @@ CREATE TABLE `tbcliente` (
   `Cli_Email` varchar(50) DEFAULT NULL,
   `Cli_Senha` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Despejando dados para a tabela `tbcliente`
---
-
-INSERT INTO `tbcliente` (`idCliente`, `Cli_Email`, `Cli_Senha`) VALUES
-(0, 'dom@dom', '123');
 
 --
 -- Índices para tabelas despejadas
