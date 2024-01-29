@@ -57,7 +57,7 @@ function deuCerto($Email, $senha, $conexao) {
     }
 }
 
-if (empty($Email) || empty($senha) || empty($Confirma)) {
+if (empty($Email) && empty($senha) && empty($Confirma)) {
 
     // Campos vazios
     echo vazio();
