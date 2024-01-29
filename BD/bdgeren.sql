@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26/01/2024 às 01:21
+-- Tempo de geração: 29/01/2024 às 16:11
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -28,7 +28,6 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `tbcliente` (
-  `idCliente` int(50) NOT NULL,
   `Cli_Email` varchar(50) DEFAULT NULL,
   `Cli_Senha` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -37,18 +36,9 @@ CREATE TABLE `tbcliente` (
 -- Despejando dados para a tabela `tbcliente`
 --
 
-INSERT INTO `tbcliente` (`idCliente`, `Cli_Email`, `Cli_Senha`) VALUES
-(0, 'dom@dom', '123');
-
---
--- Índices para tabelas despejadas
---
-
---
--- Índices de tabela `tbcliente`
---
-ALTER TABLE `tbcliente`
-  ADD PRIMARY KEY (`idCliente`);
+INSERT INTO `tbcliente` (`Cli_Email`, `Cli_Senha`) VALUES
+('dom@dom', '1212'),
+('teste@teste', '1212');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
