@@ -54,19 +54,6 @@ header h1{
     color: rgb(107, 106, 106);
 }
 
-
-.rodape{
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(24, 22, 22);
-    padding-top: 15px;
-    padding-bottom: 13px;
-    font-size: 18px;
-    border-top: 1px solid rgb(0, 0, 0);
-}
-
 .rodape p{
     color: aliceblue;
 }

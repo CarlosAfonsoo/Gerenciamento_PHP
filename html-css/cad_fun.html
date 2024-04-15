@@ -28,32 +28,35 @@
         <div class="container">
             <div class="forms">
                 <h4 class="titulo">Informe os campos a baixo</h4>
-                <form action="arquivo php" method="post" name="formulario" class="form2">
+                <form action="../PHP/cadServicos.php" method="post" name="formulario" class="form2">
                     <div class="nome">
                         <label for="name">Nome</label>
-                        <input type="text"  placeholder="Coloque o Nome do Funcionário">
+                        <input name="nome" type="text"  placeholder="Coloque o Nome do Funcionário" required>
                     </div>
                     <div class="cargo">
                         <label for="text" class="cargo"> Cargo</label>
-                        <select class="escolha">
+                        <select name="cargo" class="escolha">
                             <option value="Estagiário">
                                 Estagiário
                             </option>   
-                            <option value="Estagiário">
-                                Estagiário
+                            <option value="Júnior">
+                                Júnior
                             </option>   
-                            <option value="Estagiário">
-                                Estagiário
+                            <option value="Pleno">
+                                Pleno
+                            </option>   
+                            <option value="Senior">
+                                Senior
                             </option>   
                         </select>
                     </div>
                     <div class="cpf">
                         <label for="text"> CPF</label>
-                        <input type="text" placeholder="Coloque seu CPF">
+                        <input name="CPF" type="text" placeholder="Coloque o CPF" required>
                     </div>
                     <div class="telefone">
                         <label for="tel">Telefone</label>
-                        <input type="text" placeholder="Coloque o Numero de Telefone">
+                        <input name="tel" type="text" placeholder="Coloque o Numero de Telefone" required>
                     </div>
                     <div class="enviar">
                         <input type="submit" value="Cadastrar">

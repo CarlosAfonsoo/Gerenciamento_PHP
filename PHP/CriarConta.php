@@ -18,7 +18,7 @@ function deuCerto($Email, $senha, $conexao) {
 
     // Verificação de usuário para saber se já não é cadastrado
 
-    $sql_check = "SELECT 2 FROM `tbcliente` WHERE `Cli_Email` = '$Email' AND `Cli_Senha` = '$senha'";
+    $sql_check = "SELECT 2 FROM `tblogin` WHERE `email` = '$Email' AND `senha` = '$senha'";
 
     $result_check = mysqli_query($conexao, $sql_check);
 
@@ -26,7 +26,7 @@ function deuCerto($Email, $senha, $conexao) {
 
         // Verificação de Email
 
-        $sql_check = "SELECT 1 FROM `tbcliente` WHERE `Cli_Email` = '$Email'";
+        $sql_check = "SELECT 1 FROM `tblogin` WHERE `email` = '$Email'";
 
         $result_check = mysqli_query($conexao, $sql_check);
 
@@ -34,7 +34,7 @@ function deuCerto($Email, $senha, $conexao) {
 
             //Vai inserir dados no banco de dados
 
-            $sql = "INSERT INTO `tbcliente` (`Cli_Email`, `Cli_Senha`)
+            $sql = "INSERT INTO `tblogin` (`email`, `senha`)
                     VALUES ('$Email', '$senha')";
     
             $resultado = mysqli_query($conexao, $sql);

@@ -14,7 +14,7 @@
 
     function deuCerto( $email , $senha , $conexao) {
         
-        $sql_check = "SELECT 2 FROM `tbcliente` WHERE `Cli_Email` = '$email' && `Cli_Senha` = '$senha' ";
+        $sql_check = "SELECT 2 FROM `tblogin` WHERE `email` = '$email' && `senha` = '$senha' ";
         $result_check = mysqli_query( $conexao, $sql_check );
     
         if ( mysqli_num_rows( $result_check ) > 0 ) {
