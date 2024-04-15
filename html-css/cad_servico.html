@@ -28,22 +28,22 @@
         <div class="container">
             <div class="forms">
                 <h4 class="titulo">Informe os campos a baixo</h4>
-                <form action="arquivo php" method="post" name="formulario" class="form2">
+                <form action="../PHP/cadServicos.php" method="post" name="formulario" class="form2">
                     <div class="nomeCli">
                         <label for="cli" class="nome_cli">Cliente</label>
-                        <input type="text" placeholder="Digite o Nome do Cliente">
+                        <input name="name" type="text" placeholder="Digite o Nome do Cliente" required>
                     </div>
                     <div class="nomeProf">
                         <label for="pofis" class="nome_profi">Profissional</label>
-                        <input type="text" placeholder="Digite o Nome do Profissional">
+                        <input name="fun" type="text" placeholder="Digite o Nome do Profissional" required>
                     </div>
                     <div class="valor">
                         <label for="value" class="values">Valor</label>
-                        <input type="text" placeholder="Lucros do Serviço em R$">
+                        <input name="value" type="text" placeholder="Lucros do Serviço em R$" required>
                     </div>
                     <div class="decri">
                         <label for="desc" class="desc">Descrição</label>
-                        <textarea class="txt_longo" name="txt_longo" id="txt_longo" cols="30" rows="25" placeholder="Cite as Descrições Técnicas do Serviço a ser Realizado"></textarea>
+                        <textarea name="desc" class="txt_longo" id="txt_longo" cols="30" rows="25" placeholder="Cite as Descrições Técnicas do Serviço a ser Realizado" required></textarea>
                     </div>
                     <div class="enviar">
                         <input type="submit" value="Cadastrar" class="btn">
