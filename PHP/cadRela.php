@@ -5,7 +5,7 @@
     $nomeCli = $_POST['nomeCli'];
     $nomeProf = $_POST['nomeProf'];
     $value = $_POST['value'];
-    $desc = $_POST['desc'];
+    $tel = $_POST['desc'];
 
     function envioDAdos($nomeCli, $nomeProf, $value, $desc, $conexao){
 
