@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./css/cad_fun.css">
     <title>Gerenciamento</title>
 </head>
+
 <body>
     <!-- site criado dia 04/12/23 -->
     <header class="cabecario">
@@ -25,49 +27,58 @@
         </div>
     </nav>
     <section class="conteudo">
-        <div class="container">
             <div class="forms">
-                <h4 class="titulo">Informe os campos a baixo</h4>
-                <form action="../PHP/cadServicos.php" method="post" name="formulario" class="form2">
-                    <div class="nome">
-                        <label for="name">Nome</label>
-                        <input name="nome" type="text"  placeholder="Coloque o Nome do Funcionário" required>
-                    </div>
-                    <div class="cargo">
-                        <label for="text" class="cargo"> Cargo</label>
-                        <select name="cargo" class="escolha">
+                <form action="../PHP/cadServicos.php" method="post" name="formulario" class="form">
+                    <p class="title">Informe os campos abaixo</p>
+                    <label for="cli">
+                        <input type="text" class="input" required name="nome">
+                        <span>Nome do funcionário</span>
+                    </label>
+
+                    <label>
+                        <select name="cargo" class="input">
                             <option value="Estagiário">
                                 Estagiário
-                            </option>   
+                            </option>
                             <option value="Júnior">
                                 Júnior
-                            </option>   
+                            </option>
                             <option value="Pleno">
                                 Pleno
-                            </option>   
+                            </option>
                             <option value="Senior">
                                 Senior
-                            </option>   
+                            </option>
                         </select>
-                    </div>
-                    <div class="cpf">
-                        <label for="text"> CPF</label>
-                        <input name="CPF" type="text" placeholder="Coloque o CPF" required>
-                    </div>
-                    <div class="telefone">
-                        <label for="tel">Telefone</label>
-                        <input name="tel" type="text" placeholder="Coloque o Numero de Telefone" required>
-                    </div>
-                    <div class="enviar">
-                        <input type="submit" value="Cadastrar">
-                    </div>
+                        <span>Cargo<span/>
+                    </label>
+
+                    <label for="profi">
+                        <input required type="text" class="input" name="CPF">
+                        <span>CPF</span>
+                    </label>
+
+                    <label for="tel">
+                        <input required type="text" class="input">
+                        <span>Telefone</span>
+                    </label>
+
+                    <label for="tel">
+                        <input name="cpf" required type="text" class="input">
+                        <span>CPF</span>
+                    </label>
+
+                    <label>
+                        <textarea required="" placeholder="Cite as descrições técnicas a serem aplicadas"
+                            class="input"></textarea>
+                    </label>
+                    <input type="submit" class="submit" value="Cadastrar">
                 </form>
-            </div>    
-        </div>
+            </div>
     </section>
-    <div style="margin-top: 20px;"></div>
     <footer class="rodape">
         <p>&copy; 2023 Sistema de Gerenciamento</p>
     </footer>
 </body>
+
 </html>

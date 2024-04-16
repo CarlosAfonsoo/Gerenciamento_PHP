@@ -16,108 +16,106 @@ body{
     border-radius: 25px;
 }
 
-.forms input{
-    width: 55%;
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 0px 40px 20px 20px;
+    border-radius: 20px;
+    position: relative;
+    margin: 2vw;
 }
 
-.forms h4{
-    font-size: 20px;
+.title {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-.forms label{
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 3px;
+.message,
+.signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.form label {
+    position: relative;
+}
+
+.form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+}
+
+.form label .input+span {
     position: absolute;
-    font-weight: bold;
-    margin-bottom: 5px;
-
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
 }
 
-.nomeProf input{
-    border: 1px solid rgb(186, 186, 178);
-    width: 57%;
-    height: 30px;
-    border-radius: 13px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+.form label .input:placeholder-shown+span {
+    top: 15px;
+    font-size: 0.9em;
 }
 
-.nomeProf label{
-    position: relative;
-    right: 83px;
+.form label .input:focus+span,
+.form label .input:valid+span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
 }
 
-.nomeCli input{
-    border: 1px solid rgb(186, 186, 178);
-    width: 57%;
-    height: 30px;
-    border-radius: 13px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+.form label .input:valid+span {
+    color: green;
 }
 
-
-
-
-.valor input{
-    border: 1px solid rgb(186, 186, 178);
-    width: 57%;
-    height: 30px;
-    border-radius: 13px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-}
-
-.valor label{
-    position: relative;
-    right: 107px;
-}
-
-
-.decri label{
-    position: relative;
-    right: 88px;
-}
-
-.nomeCli label{
-    position: relative;
-    right: 100px;
-}
-
-.decri textarea{
-    position: relative;
-    border: 1px solid rgb(186, 186, 178);
-    width: 57%;
-    height: 120px;
-    border-radius: 13px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    margin-bottom: 15px;
-}
-
-.enviar input[type="submit"]{
-    width: 57%;
-    height: 30px;
-    background-color: rgb(81, 121, 207);
-    color: rgb(255, 255, 255);
-    border: 1px solid white;
-    border-radius: 6px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+.submit {
+    border: none;
+    outline: none;
+    background-color: rgb(131, 131, 132);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
     font-size: 16px;
-    cursor:pointer;
-    margin-bottom: 15px;
+    transform: .3s ease;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
-.enviar input[type="submit"]:hover{
-    background-color: rgb(36, 68, 139);
+.submit:hover {
+    background-color: rgb(63, 63, 63);
 }
 
-.enviar input[type="submit"]:active{
-    background-color: rgb(22, 41, 82);
-}
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+        opacity: 1;
+    }
 
+    to {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
 
 .rodape{
     text-align: center;

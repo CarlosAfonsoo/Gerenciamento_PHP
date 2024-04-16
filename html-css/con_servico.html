@@ -28,7 +28,7 @@
     <section class="conteudo">
         <div class="container">
             <div class="forms">
-                <form action="PHP" method="post" name="Consut" class="formulario">
+                <!-- <form action="PHP" method="post" name="Consut" class="formulario">
                     <h4 class="font">Insira o Nome do Cliente e a ID de Serviço para o acompanhar.</h4>
                     <div class="id">
                         <label for="name" class="lbl">ID</label>
@@ -42,7 +42,22 @@
                     <div class="enviar">
                         <input type="submit" class="btn" value="Enviar">
                     </div>
+                </form> -->
+
+                <form action="php" method="post" name="consult" class="form">
+                    <p class="title">Insira o nome do cliente e o ID de Serviço</p>
+                    <label for="cli">
+                        <input name="id" id="indentificador" type="text" class="input" required name="nome">
+                        <span>ID Serviço</span>
+                    </label>
+
+                    <label for="profi">
+                        <input required type="text" class="input" name="cliente">
+                        <span>Nome do cliente</span>
+                    </label>
+                    <input type="submit" class="submit" value="Buscar">
                 </form>
+
             </div>
         </div>
     </section>

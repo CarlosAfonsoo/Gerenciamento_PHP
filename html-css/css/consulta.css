@@ -4,80 +4,117 @@ body{
     background-color:  rgb(238, 240, 237);
 }
 
+
 .forms{
-    text-align: center;
-    border: 1px solid rgb(129, 125, 125);
-    margin: auto;
     padding: 20px;
-    width: 50%;
-    border-radius: 15px;
-    background-color: rgb(255, 255, 255);
-    height: 340px;
-}
-
-.formulario{
-    position: relative;
-    top: 35px;
-}
-
-.forms h4{
-    margin-bottom: 20px;
-}
-
-.forms label{
     display: block;
     position: relative;
-    right: 56px;
-    margin-top: 20px;
-    font-weight: bold;
-    margin-bottom: 3px;
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-bottom: 4vw;
 }
 
-.id input , .nome input{
-    border: 1px solid rgb(186, 186, 178);
-    width: 250px;
-    height: 30px;
-    border-radius: 13px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-}
-
-.id label{
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 0px 40px 20px 20px;
+    border-radius: 20px;
     position: relative;
-    right: 8vw;
 }
 
-.nome label{
+.title {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    letter-spacing: -1px;
     position: relative;
-    right: 7vw;
+    display: flex;
+    align-items: center;
 }
 
-label  , input{
+.message,
+.signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.form label {
     position: relative;
-    top: 25px;
 }
 
-.enviar input[type="submit"]{
-    margin-top: 20px;
-    width: 250px;
-    /* width: 22vw; */
-    height: 30px;
-    background-color: rgb(81, 121, 207);
-    color: rgb(255, 255, 255);
-    border: 1px solid white;
-    border-radius: 6px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+.form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+}
+
+.form label .input+span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown+span {
+    top: 15px;
+    font-size: 0.9em;
+}
+
+.form label .input:focus+span,
+.form label .input:valid+span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.form label .input:valid+span {
+    color: green;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    background-color: rgb(131, 131, 132);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
     font-size: 16px;
-    cursor:pointer;
+    transform: .3s ease;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
-.enviar input[type="submit"]:hover{
-    background-color: rgb(36, 68, 139);
+.submit:hover {
+    background-color: rgb(63, 63, 63);
 }
 
-.enviar input[type="submit"]:active{
-    background-color: rgb(22, 41, 82);
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.8);
+        opacity: 0;
+    }
 }
 
 .rodape{
