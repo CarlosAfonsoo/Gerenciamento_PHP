@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 15-Abr-2024 às 22:31
--- Versão do servidor: 10.4.28-MariaDB
--- versão do PHP: 8.2.4
+-- Tempo de geração: 15-Abr-2024 às 02:14
+-- Versão do servidor: 10.4.32-MariaDB
+-- versão do PHP: 8.1.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,10 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `bdgeren`
 --
-
-CREATE DATABASE bdgeren;
-
-USE bdgeren;
 
 -- --------------------------------------------------------
 
@@ -74,20 +70,6 @@ CREATE TABLE `tbrela` (
   `Descri` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `tbserv`
---
-
-CREATE TABLE `tbserv` (
-  `id` int(50) NOT NULL,
-  `nomeCli` varchar(50) NOT NULL,
-  `nomeProf` varchar(50) NOT NULL,
-  `Value` varchar(50) NOT NULL,
-  `Descri` varchar(150) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 --
 -- Índices para tabelas despejadas
 --
@@ -111,12 +93,6 @@ ALTER TABLE `tbrela`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `tbserv`
---
-ALTER TABLE `tbserv`
-  ADD PRIMARY KEY (`id`);
-
---
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
@@ -136,12 +112,6 @@ ALTER TABLE `tblogin`
 -- AUTO_INCREMENT de tabela `tbrela`
 --
 ALTER TABLE `tbrela`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT de tabela `tbserv`
---
-ALTER TABLE `tbserv`
   MODIFY `id` int(50) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
