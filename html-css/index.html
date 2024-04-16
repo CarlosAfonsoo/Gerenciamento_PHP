@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <!-- ajustar a tela de login colocando um container e divs semanticos -->
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/login.css">
-        <title>Login</title>
-    </head>
-    <body>
-        <!-- Sistema de Login -->
-        <!-- O projeto está hospedado no vercel dia 24/11 -->
-        <div class="tudo">
-            <div class="titulo">
-                <h4>Login</h4>
-                <!-- <hr> -->
-                <!-- <br> -->
-                <!-- <p>Entre com seus dados para acessar o sistema</p> -->
-            </div>
-            <div class="forms">
-                <form action="../PHP/Login.php" name="formulario" method="post">
-                    <label for="usuario">Email</label>
-                    <input name="email" type="email" placeholder="Coloque seu email" required>
+<!-- ajustar a tela de login colocando um container e divs semanticos -->
 
-                    <label for="password">Senha</label>
-                    <input name="senha" type="password" placeholder="Coloque sua senha" required>
-                    
-                    <input type="submit" class="btn" value="Entrar" name="Logar">
-                    <div class="as">
-                        <a href="./redSenha.html" class="link1">Esqueceu a Senha?</a>
-                        <a href="./criarConta.html" class="link2">Criar Conta</a>
-                    </div>
-                </form>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Sistema de Login -->
+    <!-- O projeto está hospedado no vercel dia 24/11 -->
+    <div class="tudo">
+        <div class="titulo">
+            <h4>Login</h4>
+            <!-- <hr> -->
+            <!-- <br> -->
+            <!-- <p>Entre com seus dados para acessar o sistema</p> -->
         </div>
-    </body>
+        <div class="forms">
+            <form action="../PHP/Login.php" name="formulario" method="post">
+                <label for="usuario">Email</label>
+                <input name="email" type="email" placeholder="Coloque seu email" required>
+
+                <label for="password">Senha</label>
+                <input name="senha" type="password" placeholder="Coloque sua senha" required>
+
+                <input type="submit" class="btn" value="Entrar" name="Logar">
+                <div class="as">
+                    <a href="./redSenha.html" class="link1">Esqueceu a Senha?</a>
+                    <a href="./criarConta.html" class="link2">Criar Conta</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./css/rela.css">
     <title>Gerenciamento</title>
 </head>
+
 <body>
     <!-- site criado dia 04/12/23 -->
     <header class="cabecario">
@@ -27,32 +29,31 @@
     <section class="conteudo">
         <div class="container">
             <div class="forms">
-                <h4 class="titulo">Informe os campos a baixo</h4>
-
                 <!-- deve conter nome do cliente, nome do profissional, data do relatório, situação de serviço e descrição técnica do que foi feito -->
+                <form action="arquivo php" method="post" name="formulario" class="form">
+                    <p class="title">Informe os campos abaixo</p>
+                    <label for="cli">
+                        <input type="text" class="input" required>
+                        <span>Nome do Cliente</span>
+                    </label>
 
-                <form action="arquivo php" method="post" name="formulario" class="form2">
-                    <div class="nomeCli">
-                        <label for="cli" class="nome_cli">Cliente</label>
-                        <input type="text" placeholder="Digite o Nome do Cliente">
-                    </div>
-                    <div class="nomeProf">
-                        <label for="pofis" class="nome_profi">Profissional</label>
-                        <input type="text" placeholder="Digite o Nome do Profissional">
-                    </div>
-                    <div class="valor">
-                        <label for="value" class="values">Valor</label>
-                        <input type="text" placeholder="Lucros do Serviço em R$">
-                    </div>
-                    <div class="decri">
-                        <label for="desc" class="desc">Descrição</label>
-                        <textarea class="txt_longo" name="txt_longo" id="txt_longo" cols="30" rows="25" placeholder="Cite as Descrições Técnicas do Serviço a ser Realizado"></textarea>
-                    </div>
-                    <div class="enviar">
-                        <input type="submit" value="Cadastrar" class="btn">
-                    </div>
+                    <label for="profi">
+                        <input required type="text" class="input">
+                        <span>Nome do Profissional</span>
+                    </label>
+
+                    <label for="value">
+                        <input required type="number" class="input">
+                        <span>Valor</span>
+                    </label>
+
+                    <label>
+                        <textarea required="" placeholder="Cite as descrições técnicas a serem aplicadas"
+                            type="password" class="input"></textarea>
+                    </label>
+                    <input type="submit" class="submit" value="Cadastrar">
                 </form>
-            </div>    
+            </div>
         </div>
     </section>
     <div style="margin-top: 20px;"></div>
@@ -60,4 +61,5 @@
         <p>&copy; 2023 Sistema de Gerenciamento</p>
     </footer>
 </body>
+
 </html>
