@@ -15,6 +15,8 @@
 
         mysqli_close($conexao);
 
+        return header('location: ../html-css/home.html');
+
     }
 
     envioDAdos($nomeCli, $nomeProf, $value, $desc, $conexao)

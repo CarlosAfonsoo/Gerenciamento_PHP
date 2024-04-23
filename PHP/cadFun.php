@@ -9,12 +9,13 @@
 
     function envioDAdos($nome, $cargo, $CPF, $tel, $conexao){
 
-        $sql = "INSERT INTO `tbserv`( `nomeCli`, `nomeProf`, `value`, `desc` ) VALUES ('$nome','$cargo','$CPF','$tel')";
+        $sql = "INSERT INTO `tbfun`( `Nome`, `Cargo`, `CPF`, `Tel` ) VALUES ('$nome','$cargo','$CPF','$tel')";
 
         $result = mysqli_query($conexao, $sql);
 
         mysqli_close($conexao);
 
+        return header('location: ../html-css/home.html');
 
     }
 

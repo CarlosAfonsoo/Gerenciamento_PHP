@@ -28,10 +28,10 @@
     </nav>
     <section class="conteudo">
             <div class="forms">
-                <form action="../PHP/cadServicos.php" method="post" name="formulario" class="form">
+                <form action="../PHP/cadFun.php" method="post" name="formulario" class="form">
                     <p class="title">Informe os campos abaixo</p>
                     <label for="cli">
-                        <input type="text" class="input" required name="nome">
+                        <input  name="nome" type="text" class="input" required>
                         <span>Nome do funcionário</span>
                     </label>
 
@@ -54,19 +54,15 @@
                     </label>
 
                     <label for="profi">
-                        <input required type="text" class="input" name="CPF">
+                        <input name="CPF" required type="text" class="input">
                         <span>CPF</span>
                     </label>
 
                     <label for="tel">
-                        <input required type="text" class="input" name="tel">
+                        <input name="tel" required type="text" class="input">
                         <span>Telefone</span>
                     </label>
 
-                    <label for="tel">
-                        <input name="cpf" required type="text" class="input">
-                        <span>CPF</span>
-                    </label>
                     <input type="submit" class="submit" value="Cadastrar">
                 </form>
             </div>
