@@ -28,17 +28,8 @@
     <section class="conteudo">
         <div class="container">
             <div class="forms">
-                <form action="php" method="post" name="consult" class="form">
-                    <p class="title">Insira o ID do cliente e o ID de Serviço</p>
-                    <label for="cli">
-                        <input name="id" id="indentificador" type="text" class="input" required name="nome">
-                        <span>ID Serviço</span>
-                    </label>
-
-                    <label for="profi">
-                        <input required type="text" class="input" name="cliente">
-                        <span>ID Cliente</span>
-                    </label>
+                <form action="../PHP/conFun.php" method="post" name="consult" class="form">
+                    <p class="title">Consulte todos os funcionarios registrados</p>
                     <input type="submit" class="submit" value="Buscar">
                 </form>
             </div>
