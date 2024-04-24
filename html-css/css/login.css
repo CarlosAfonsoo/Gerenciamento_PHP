@@ -40,10 +40,10 @@ form{
 .btn {
     background-color: rgb(80, 94, 191);
     color: rgb(255, 255, 255);
-    padding: 10px 30px;
+    padding: 10px 10px;
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px 10px 20px 0px;
+    margin-top: 12px;
 }
 
 .btn:active {
@@ -113,9 +113,6 @@ form{
         white-space: nowrap;
         text-overflow: ellipsis;
     }
-
-    .confir {
-    }
 }
 
 @media screen and (max-width: 802px) {
@@ -124,10 +121,6 @@ form{
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-    }
-
-    .confir {
-        margin-left: -40px;
     }
 }
 
@@ -138,10 +131,6 @@ form{
         white-space: nowrap;
         text-overflow: ellipsis;
     }
-
-    .confir {
-        margin-left: -40px;
-    }
 }
 
 @media screen and (max-width: 522px) {
@@ -150,10 +139,6 @@ form{
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-    }
-
-    .confir {
-        margin-left: -40px;
     }
 }
 
@@ -164,15 +149,9 @@ form{
         white-space: nowrap;
         text-overflow: ellipsis;
     }
-
-    .confir {
-        margin-right: 1px;
-    }
-
     .link2 {
         margin-left: -10px;
     }
-
     .link1 {
         margin-left: -31px;
     }
